@@ -26,6 +26,11 @@
         "image": "/img/team/felix.jpg",
         "name": "Felix Weth",
         "description": ""
+      },
+      {
+        "image": "/img/team/ameen.jpeg",
+        "name": "Ameen Shandhor",
+        "description": ""
       }
     ]
   },
@@ -55,6 +60,11 @@
       {
         "image": "/img/team/felix.jpg",
         "name": "Felix Weth",
+        "description": ""
+      },
+      {
+        "image": "/img/team/ameen.jpeg",
+        "name": "Ameen Shandhor",
         "description": ""
       }
     ]
