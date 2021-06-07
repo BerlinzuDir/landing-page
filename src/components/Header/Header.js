@@ -9,13 +9,13 @@ import { makeStyles } from '@material-ui/core/styles'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import IconButton from '@material-ui/core/IconButton'
-import Button from '@material-ui/core/Button'
 import Hidden from '@material-ui/core/Hidden'
 import Drawer from '@material-ui/core/Drawer'
 // @material-ui/icons
 import Menu from '@material-ui/icons/Menu'
 // core components
 import styles from 'src/assets/jss/nextjs-material-kit/components/headerStyle.js'
+import Image from 'next/image'
 
 const useStyles = makeStyles(styles)
 
@@ -61,10 +61,12 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   })
+  console.log(props.logo)
   const brandComponent = (
     <Link href="/" as="/">
-      <Button className={classes.title}>
-        <span className={classes.brand}>{brand}</span></Button>
+     
+        <Image src={props.logo} width={120} height={57}/>
+      
     </Link>
   )
   return (

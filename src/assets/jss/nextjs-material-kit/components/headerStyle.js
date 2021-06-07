@@ -3,11 +3,6 @@ import {
   hexToRGBAlpha,
   defaultFont,
   primaryColor,
-  infoColor,
-  successColor,
-  warningColor,
-  dangerColor,
-  roseColor,
   transition,
   boxShadow,
   drawerWidth

@@ -1,5 +1,6 @@
 {
   "en": {
+    "logo": "/img/logo/horizontal.png",
     "blog": "Marketplace",
     "telegram": "",
     "telegramTooltip": "",
@@ -7,6 +8,7 @@
     "faq": "FAQ"
   },
   "de": {
+    "logo": "/img/logo/horizontal.png",
     "blog": "Marktplatz",
     "telegram": "",
     "telegramTooltip": "",

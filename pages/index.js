@@ -38,12 +38,13 @@ export async function getStaticProps(context) {
 export default function LandingPage(props) {
   const classes = useStyles()
   const { ...rest } = props
+  console.log(props.headerData)
   return (
     <div>
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand={props.headerData.brand}
+        logo={props.headerData.logo}
         rightLinks={<HeaderLinks {...props.headerData} />}
         fixed
         changeColorOnScroll={{
