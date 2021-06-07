@@ -1,18 +1,20 @@
 {
-  "en": {
-    "logo": "/img/logo/horizontal.png",
-    "blog": "Marketplace",
-    "telegram": "",
-    "telegramTooltip": "",
-    "brand": "BerlinzuDir",
-    "faq": "FAQ"
-  },
-  "de": {
-    "logo": "/img/logo/horizontal.png",
-    "blog": "Marktplatz",
-    "telegram": "",
-    "telegramTooltip": "",
-    "brand": "BerlinzuDir",
-    "faq": "FAQ"
-  }
+    "en": {
+        "logo": "/img/logo/horizontal.png",
+        "logoWhite": "/img/logo/horizontal_white.png",
+        "blog": "Marketplace",
+        "telegram": "",
+        "telegramTooltip": "",
+        "brand": "BerlinzuDir",
+        "faq": "FAQ"
+    },
+    "de": {
+        "logo": "/img/logo/horizontal.png",
+        "logoWhite": "/img/logo/horizontal_white.png",
+        "blog": "Marktplatz",
+        "telegram": "",
+        "telegramTooltip": "",
+        "brand": "BerlinzuDir",
+        "faq": "FAQ"
+    }
 }
