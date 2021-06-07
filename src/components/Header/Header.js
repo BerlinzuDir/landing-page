@@ -64,7 +64,7 @@ export default function Header(props) {
     const brandComponent = (
         <Link href="/" as="/" passHref>
             <a>
-                <Image src={props.logo} width={120} height={57} />
+                <Image priority src={props.logo} width={120} height={57} />
             </a>
         </Link>
     )

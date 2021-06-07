@@ -1,52 +1,52 @@
 {
-  "de": {
-    "title": "Coming Soon",
-    "subtitle": "Unser Lokalmarktplatz für Berliner Läden und Produzent:innen.",
-    "faqText": "Weitere Informationen finden Sie in unseren ",
-    "faqLink": "FAQ",
-    "contactText": "Interesse? Senden sie uns eine ",
-    "contactLink": "Nachricht!",
-    "people": [
-      {
-        "image": "/img/icons/icon_shop.png",
-        "title": "Für Geschäfte",
-        "description": "Wir helfen Ihnen, Ihre Produkte über unseren Online-Marktplatz zu verkaufen. \nUnser Marktplatz ist exclusiv für lokale Läden und Produzenten. \nWir helfen beim Einstellen der Produkte. \nFalls verfügbar, auch automatisch per Schnittstelle. \nBestellungen werden einmal am Tag zur festen Zeit abgeholt."
-      },
-      {
-        "image": "/img/icons/icon_bycicle.png",
-        "title": "Für Kunden",
-        "description": "Sie können in verschiedenen Geschäften in Ihrer Stadt bequem online bestellen. Ihre Bestellungen wird zuverlässig und einfach per Lastenrad geliefert.\n\n Wir liefern Produkte von verschiedenen Läden in einem Schwung - so werden unnötige Wege und Kosten vermieden."
-      },
-      {
-        "image": "/img/icons/icon_hands.png",
-        "title": "Für die Zukunft",
-        "description": "Wir möchten alle mit ins Boot holen, die die bunte Vielfalt von Berlins Straßen erhalten wollen.\n\n Darum wird BerlinzuDir eine Genossenschaft: Alle Beteiligten können mit einsteigen, um mitzugestalten oder unterstützend zu investieren. \n\n Und wenn Gewinne entstehen, gehen die zurück an die Mitglieder."
-      }
-    ]
-  },
-  "en": {
-    "title": "Coming Soon",
-    "subtitle": "Our local marketplace for Berlin shops and brands.",
-    "faqText": "Find more information in our ",
-    "faqLink": "FAQ",
-    "contactText": "Interested in joining? ",
-    "contactLink": "Leave us a message!",
-    "people": [
-      {
-        "image": "/img/icons/icon_shop.png",
-        "title": "For Stores",
-        "description": "We help you sell your products through our online marketplace. Our marketplace is exclusive for local stores and producers. We help you to list your products. If available, also automatically via API. Orders are picked up once a day at a fixed time."
-      },
-      {
-        "image": "/img/icons/icon_bycicle.png",
-        "title": "For Customers",
-        "description": "You can have your orders delivered to your clientele reliably and easily by cargo bike.\n\n We deliver products from different stores in one go - thus avoiding unnecessary routes and costs."
-      },
-      {
-        "image": "/img/icons/icon_hands.png",
-        "title": "For the future",
-        "description": "We want to get everyone on board who wants to preserve the colorful diversity of Berlin's streets.\n\n That's why BerlinzuDir will be a cooperative: All participants can join in, have a say the project, or support with investment. \n\n And if profits are made, they will go back to the members."
-      }
-    ]
-  }
+    "de": {
+        "title": "Coming Soon",
+        "subtitle": "Unser Lokalmarktplatz für Berliner Läden und Produzent:innen. \n Wir sind in der geschlossenen Testphase. Du willst mitmachen? Großartig, schreibe uns einfach eine kurze Nachricht.",
+        "faqText": "Weitere Informationen finden Sie in unseren ",
+        "faqLink": "FAQ",
+        "contactText": "Interesse? Senden sie uns eine ",
+        "contactLink": "Nachricht!",
+        "people": [
+            {
+                "image": "/img/icons/icon_shop.png",
+                "title": "Für Geschäfte",
+                "description": "Wir helfen Ihnen, Ihre Produkte über unseren Online-Marktplatz zu verkaufen. \nUnser Marktplatz ist exclusiv für lokale Läden und Produzenten. \nWir helfen beim Einstellen der Produkte. \nFalls verfügbar, auch automatisch per Schnittstelle. \nBestellungen werden einmal am Tag zur festen Zeit abgeholt."
+            },
+            {
+                "image": "/img/icons/icon_bycicle.png",
+                "title": "Für Kunden",
+                "description": "Sie können in verschiedenen Geschäften in Ihrer Stadt bequem online bestellen. Ihre Bestellungen wird zuverlässig und einfach per Lastenrad geliefert.\n\n Wir liefern Produkte von verschiedenen Läden in einem Schwung - so werden unnötige Wege und Kosten vermieden."
+            },
+            {
+                "image": "/img/icons/icon_hands.png",
+                "title": "Für die Zukunft",
+                "description": "Wir möchten alle mit ins Boot holen, die die bunte Vielfalt von Berlins Straßen erhalten wollen.\n\n Darum wird BerlinzuDir eine Genossenschaft: Alle Beteiligten können mit einsteigen, um mitzugestalten oder unterstützend zu investieren. \n\n Und wenn Gewinne entstehen, gehen die zurück an die Mitglieder."
+            }
+        ]
+    },
+    "en": {
+        "title": "Coming Soon",
+        "subtitle": "Our local marketplace for Berlin shops and brands. \n \n We are in closed beta. You want to join us? Great! Just leave us a message, we'll get you on board.",
+        "faqText": "Find more information in our ",
+        "faqLink": "FAQ",
+        "contactText": "Interested in joining? ",
+        "contactLink": "Leave us a message!",
+        "people": [
+            {
+                "image": "/img/icons/icon_shop.png",
+                "title": "For Stores",
+                "description": "We help you sell your products through our online marketplace. Our marketplace is exclusive for local stores and producers. We help you to list your products. If available, also automatically via API. Orders are picked up once a day at a fixed time."
+            },
+            {
+                "image": "/img/icons/icon_bycicle.png",
+                "title": "For Customers",
+                "description": "You can have your orders delivered to your clientele reliably and easily by cargo bike.\n\n We deliver products from different stores in one go - thus avoiding unnecessary routes and costs."
+            },
+            {
+                "image": "/img/icons/icon_hands.png",
+                "title": "For the future",
+                "description": "We want to get everyone on board who wants to preserve the colorful diversity of Berlin's streets.\n\n That's why BerlinzuDir will be a cooperative: All participants can join in, have a say the project, or support with investment. \n\n And if profits are made, they will go back to the members."
+            }
+        ]
+    }
 }

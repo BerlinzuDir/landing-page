@@ -54,7 +54,7 @@ export default function Parallax(props) {
                 src={image}
                 layout="fill"
                 objectFit="cover"
-                priority="true"
+                priority
                 quality={100}
             />
             {children}
