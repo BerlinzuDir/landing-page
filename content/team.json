@@ -1,72 +1,72 @@
 {
-  "de": {
-    "title": "Team",
-    "people": [
-      {
-        "image": "/img/team/daria.jpg",
-        "name": "Daria Mühlenbein",
-        "description": ""
-      },
-      {
-        "image": "/img/team/jakob.jpg",
-        "name": "Jakob Kolb",
-        "description": ""
-      },
-      {
-        "image": "/img/team/polina.png",
-        "name": "Polina Aslamova",
-        "description": ""
-      },
-      {
-        "image": "/img/team/kilian.jpg",
-        "name": "Kilian Zimmerer",
-        "description": ""
-      },
-      {
-        "image": "/img/team/felix.jpg",
-        "name": "Felix Weth",
-        "description": ""
-      },
-      {
-        "image": "/img/team/ameen.jpeg",
-        "name": "Ameen Shandhor",
-        "description": ""
-      }
-    ]
-  },
-  "en": {
-    "title": "Our Team",
-    "people": [
-      {
-        "image": "/img/team/polina.png",
-        "name": "Polina Aslamova",
-        "description": ""
-      },
-      {
-        "image": "/img/team/jakob.jpg",
-        "name": "Jakob Kolb",
-        "description": ""
-      },
-      {
-        "image": "/img/team/daria.jpg",
-        "name": "Daria Mühlenbein",
-        "description": ""
-      },
-      {
-        "image": "/img/team/kilian.jpg",
-        "name": "Kilian Zimmerer",
-        "description": ""
-      },
-      {
-        "image": "/img/team/felix.jpg",
-        "name": "Felix Weth",
-        "description": ""
-      },
-      {
-        "image": "/img/team/ameen.jpeg",
-        "name": "Ameen Shandhor",
-        "description": ""
-      }
-    ]
-  }
+    "de": {
+        "title": "Team",
+        "people": [
+            {
+                "image": "/img/team/daria.jpg",
+                "name": "Daria Mühlenbein",
+                "description": ""
+            },
+            {
+                "image": "/img/team/jakob.jpg",
+                "name": "Jakob Kolb",
+                "description": ""
+            },
+            {
+                "image": "/img/team/polina.png",
+                "name": "Polina Aslamova",
+                "description": ""
+            },
+            {
+                "image": "/img/team/kilian.jpg",
+                "name": "Kilian Zimmerer",
+                "description": ""
+            },
+            {
+                "image": "/img/team/felix.jpg",
+                "name": "Felix Weth",
+                "description": ""
+            },
+            {
+                "image": "/img/team/ameen.jpeg",
+                "name": "Ameen Shandor",
+                "description": ""
+            }
+        ]
+    },
+    "en": {
+        "title": "Our Team",
+        "people": [
+            {
+                "image": "/img/team/polina.png",
+                "name": "Polina Aslamova",
+                "description": ""
+            },
+            {
+                "image": "/img/team/jakob.jpg",
+                "name": "Jakob Kolb",
+                "description": ""
+            },
+            {
+                "image": "/img/team/daria.jpg",
+                "name": "Daria Mühlenbein",
+                "description": ""
+            },
+            {
+                "image": "/img/team/kilian.jpg",
+                "name": "Kilian Zimmerer",
+                "description": ""
+            },
+            {
+                "image": "/img/team/felix.jpg",
+                "name": "Felix Weth",
+                "description": ""
+            },
+            {
+                "image": "/img/team/ameen.jpeg",
+                "name": "Ameen Shandor",
+                "description": ""
+            }
+        ]
+    }
 }

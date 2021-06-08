@@ -48,7 +48,7 @@ const Imprint = ({
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand={headerData.brand}
+        logo={headerData.logo}
         rightLinks={<HeaderLinks {...headerData} />}
         fixed
         changeColorOnScroll={{
