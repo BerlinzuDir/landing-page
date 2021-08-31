@@ -9,15 +9,15 @@ const useStyles = makeStyles(styles)
 
 export const InfoElementsSection = (props) => {
     const classes = useStyles()
-    const peopleComponents = props.people.map((person, index) => (
-        <Person id={index} {...person} />
+    const infoElements = props.infoElements.map((infoContent, index) => (
+        <InfoElement id={index} {...infoContent} />
     ))
     return (
         <div className={classes.section}>
             <h2 className={classes.title}>{props.title}</h2>
             <h4 className={classes.subtitle}>{props.subtitle}</h4>
             <Grid container direction="row" justify="center">
-                {peopleComponents}
+                {infoElements}
             </Grid>
             <div className={classes.description}>
                 {props.faqText}{' '}
@@ -35,7 +35,7 @@ export const InfoElementsSection = (props) => {
     )
 }
 
-const Person = (props) => {
+const InfoElement = (props) => {
     return (
         <Grid item>
             <InfoElementWithIcon {...props} />

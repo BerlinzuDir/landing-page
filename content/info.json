@@ -6,7 +6,7 @@
         "faqLink": "FAQ",
         "contactText": "Interesse? Senden sie uns eine ",
         "contactLink": "Nachricht!",
-        "people": [
+        "infoElements": [
             {
                 "image": "/img/icons/icon_shop.png",
                 "title": "Für Geschäfte",
@@ -31,7 +31,7 @@
         "faqLink": "FAQ",
         "contactText": "Interested in joining? ",
         "contactLink": "Leave us a message!",
-        "people": [
+        "infoElements": [
             {
                 "image": "/img/icons/icon_shop.png",
                 "title": "For Stores",

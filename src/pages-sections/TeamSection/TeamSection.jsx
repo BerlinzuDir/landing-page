@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
-import {InfoElement} from "../../components/InfoElement/InfoElement";
+import {InfoElementWithIconHorrizontal} from "../../components/InfoElementWithIconHorrizontal";
 import {Grid} from "@material-ui/core";
 import styles from 'src/assets/jss/nextjs-material-kit/pages/landingPageSections/workStyle.js'
 
@@ -25,7 +25,7 @@ export const TeamSection = (props) => {
 const Person = (props) => {
     return (
         <Grid item>
-            <InfoElement {...props}/>
+            <InfoElementWithIconHorrizontal {...props}/>
         </Grid>
     )
 }
