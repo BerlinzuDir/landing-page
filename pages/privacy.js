@@ -56,7 +56,6 @@ const Imprint = ({
             <h1 className={classes.subtitle}>{title}</h1>
             <br />
             <br />
-            <link rel="See here" href="https://berlinzudir.de/static/datenschutz">
             <ReactMarkdown className={classes.content}>{content}</ReactMarkdown>
           </GridItem>
         </GridContainer>
