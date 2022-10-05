@@ -4,7 +4,7 @@ const imprintPageStyle = {
   container: {
     paddingTop: '100px',
     zIndex: '12',
-    color: '#FFFFFF',
+    color: '#3C4858',
     ...container
   },
   title: {
@@ -13,7 +13,7 @@ const imprintPageStyle = {
     position: 'relative',
     marginTop: '30px',
     minHeight: '32px',
-    color: '#FFFFFF',
+    color: '#3C4858',
     textDecoration: 'none'
   },
   subtitle: {
@@ -21,7 +21,7 @@ const imprintPageStyle = {
     maxWidth: '500px'
   },
   main: {
-    background: '#FFFFFF',
+    background: '#3C4858',
     position: 'relative',
     zIndex: '3'
   },
@@ -39,7 +39,7 @@ const imprintPageStyle = {
     fontWeight: '100px'
   },
   email: {
-    color: 'white'
+    color: '#3C4858'
   }
 }
 

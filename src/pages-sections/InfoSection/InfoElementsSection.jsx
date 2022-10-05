@@ -15,7 +15,7 @@ export const InfoElementsSection = (props) => {
     return (
         <div className={classes.section}>
             <h2 className={classes.title}>{props.title}</h2>
-            <h4 className={classes.subtitle}>{props.subtitle}</h4>
+            <h5 className={classes.subtitle}>{props.subtitle}</h5>
             <Grid container direction="row" justify="center">
                 {infoElements}
             </Grid>

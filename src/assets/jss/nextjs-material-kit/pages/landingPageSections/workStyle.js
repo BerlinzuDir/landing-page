@@ -8,8 +8,8 @@ const workStyle = {
     ...title,
 
     color: '#3C4858',
-    marginBottom: '50px',
-    marginTop: '30px',
+    marginBottom: '0px',
+    marginTop: '0px',
     minHeight: '32px',
     textDecoration: 'none',
     textAlign: 'center'
@@ -17,7 +17,7 @@ const workStyle = {
 
   subtitle: {
     color: 'var(--text-color)',
-    fontSize: '24px',
+    fontSize: '22px',
     textAlign: 'center'
   },
   description: {

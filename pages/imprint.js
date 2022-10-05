@@ -46,7 +46,7 @@ const Imprint = ({
       }}
     >
       <Header
-        color="transparent"
+        color="white"
         routes={dashboardRoutes}
         logo={headerData.logo}
         rightLinks={<HeaderLinks {...headerData} />}
