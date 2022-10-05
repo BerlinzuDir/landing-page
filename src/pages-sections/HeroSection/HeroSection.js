@@ -12,7 +12,7 @@ const HeroSection = (props) => {
     const { image, title, subtitle, contactButton } = props
     const classes = useStyles()
     return (
-        <Parallax filter responsive image={image}>
+        <Parallax responsive filter image={image}>
             <div className={classes.container}>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={6}>

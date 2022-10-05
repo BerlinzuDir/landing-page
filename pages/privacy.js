@@ -1,11 +1,12 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles'
-import ReactMarkdown from 'react-markdown'
+import parse from "html-react-parser";
 
 import styles from 'src/assets/jss/nextjs-material-kit/pages/imprintPage'
 import HeaderLinks from '../src/components/Header/HeaderLinks'
 import Header from '../src/components/Header/Header'
+import Footer from '../src/components/Footer/Footer'
 import GridItem from '../src/components/Grid/GridItem'
 import GridContainer from '../src/components/Grid/GridContainer'
 import { loadContentWithLocale, loadContent } from '../src/helpers/loadContent'
@@ -16,7 +17,8 @@ export const getStaticProps = async ({ locale }) => {
   return {
     props: {
       headerData: await loadContentWithLocaleSet('content/header.json'),
-      contentData: await loadContent('content/privacy.json')
+      contentData: await loadContent('content/privacy.json'),
+      footerData: await loadContentWithLocaleSet('content/footer.json')
     }
   }
 }
@@ -26,10 +28,12 @@ const dashboardRoutes = []
 const useStyles = makeStyles(styles)
 const Imprint = ({
   contentData: { title, backgroundImage, content },
-  headerData
+  headerData,
+  footerData
 }) => {
   const classes = useStyles()
   return (
+    <div>
     <div
       className={classes.pageHeader}
       style={{
@@ -39,7 +43,7 @@ const Imprint = ({
       }}
     >
       <Header
-        color="transparent"
+        color="white"
         routes={dashboardRoutes}
         logo={headerData.logo}
         rightLinks={<HeaderLinks {...headerData} />}
@@ -56,10 +60,19 @@ const Imprint = ({
             <h1 className={classes.subtitle}>{title}</h1>
             <br />
             <br />
-            <ReactMarkdown className={classes.content}>{content}</ReactMarkdown>
+            <div className="container-fluid pt-5">
+              <div className="row">
+                <div className="col-lg-1"></div>
+                <div className="col-sm align-self-center">
+                  <div className="text-dark"> test </div>
+                </div>
+              </div>
+            </div>
           </GridItem>
         </GridContainer>
       </div>
+    </div>
+    <Footer {...footerData} />
     </div>
   )
 }

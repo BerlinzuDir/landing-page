@@ -2,18 +2,18 @@
     "en": {
         "logo": "/img/logo/horizontal.png",
         "logoWhite": "/img/logo/horizontal_white.png",
-        "blog": "Marketplace",
+        "blog": "",
         "telegram": "",
-        "telegramTooltip": "",
+        "telegramTooltip": "Contact",
         "brand": "BerlinzuDir",
         "faq": "FAQ"
     },
     "de": {
         "logo": "/img/logo/horizontal.png",
         "logoWhite": "/img/logo/horizontal_white.png",
-        "blog": "Marktplatz",
+        "blog": "",
         "telegram": "",
-        "telegramTooltip": "",
+        "telegramTooltip": "Kontakt",
         "brand": "BerlinzuDir",
         "faq": "FAQ"
     }

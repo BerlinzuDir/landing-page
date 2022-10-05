@@ -4,27 +4,27 @@
     "organizationName": "FDO Solutions GmbH",
     "organizationAddress": "Glogauer Str. 21,\n\n10999 Berlin\n\nRepresented by the business director:\n\nFelix Weth\n\nPhone: +49 (0) 178 189 6873",
     "email": "berlin[at]berlinzudir.de",
-    "backgroundImage": "/img/imprint.jpg"
+    "backgroundImage": ""
   },
   "de": {
     "title": "Impressum",
     "organizationName": "FDO Solutions GmbH",
     "organizationAddress": "Glogauer Str. 21, \n\n10999 Berlin\n\nVertreten durch den Geschäftsführer:\n\nFelix Weth\n\nTelefon: +49 (0) 178 189 6873",
     "email": "berlin[at]berlinzudir.de",
-    "backgroundImage": "/img/imprint.jpg"
+    "backgroundImage": ""
   },
   "de-simple": {
     "title": "Impressum",
     "organizationName": "FDO Solutions GmbH",
     "organizationAddress": "Glogauer Str. 21, \n\n10999 Berlin\n\nVertreten durch den Geschäftsführer:\n\nFelix Weth\n\nTelefon: +49 (0) 178 189 6873",
     "email": "berlin[at]berlinzudir.de",
-    "backgroundImage": "/img/imprint.jpg"
+    "backgroundImage": ""
   },
   "en-simple": {
     "title": "Imprint",
     "organizationName": "FDO Solutions GmbH",
     "organizationAddress": "Glogauer Str. 21, \n\n10999 Berlin\n\nRepresented by the business director:\n\nFelix Weth\n\nPhone: +49 (0) 178 189 6873",
     "email": "berlin[at]berlinzudir.de",
-    "backgroundImage": "/img/imprint.jpg"
+    "backgroundImage": ""
   }
 }

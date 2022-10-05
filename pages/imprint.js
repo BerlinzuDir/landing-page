@@ -5,6 +5,8 @@ import ReactMarkdown from 'react-markdown'
 
 import styles from 'src/assets/jss/nextjs-material-kit/pages/imprintPage'
 import * as loadJsonFile from 'load-json-file'
+
+import Footer from '../src/components/Footer/Footer'
 import HeaderLinks from '../src/components/Header/HeaderLinks'
 import Header from '../src/components/Header/Header'
 import GridItem from '../src/components/Grid/GridItem'
@@ -17,7 +19,8 @@ export const getStaticProps = async ({ locale }) => {
   return {
     props: {
       headerData: await loadContentWithLocaleSet('content/header.json'),
-      contentData: await loadContentWithLocaleSet('content/imprint.json')
+      contentData: await loadContentWithLocaleSet('content/imprint.json'),
+      footerData: await loadContentWithLocaleSet('content/footer.json')
     }
   }
 }
@@ -33,10 +36,12 @@ const Imprint = ({
     organizationAddress,
     email
   },
-  headerData
+  headerData,
+  footerData,
 }) => {
   const classes = useStyles()
   return (
+    <div>
     <div
       className={classes.pageHeader}
       style={{
@@ -46,7 +51,7 @@ const Imprint = ({
       }}
     >
       <Header
-        color="transparent"
+        color="white"
         routes={dashboardRoutes}
         logo={headerData.logo}
         rightLinks={<HeaderLinks {...headerData} />}
@@ -75,6 +80,8 @@ const Imprint = ({
           </GridItem>
         </GridContainer>
       </div>
+    </div>
+    <Footer {...footerData} />
     </div>
   )
 }

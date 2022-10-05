@@ -19,12 +19,12 @@ export const InfoElementWithIconHorrizontal = (props) => {
     return (
         <div className={classes.container}>
             <GridContainer justify="center">
-                <GridItem xs={12} sm={6} md={4}>
+                <GridItem xs={12} sm={6} md={3}>
                     <div className={classes.title}>
-                        <Image className={imageClasses} src={props.image} width={250} height={250}/>
+                        <Image className={imageClasses} src={props.image} width={150} height={150}/>
                     </div>
                 </GridItem>
-                <GridItem xs={12} sm={6} md={8}>
+                <GridItem xs={12} sm={6} md={9}>
                     <div>
                         <h3 className={classes.title}>{props.title}</h3>
                     </div>
