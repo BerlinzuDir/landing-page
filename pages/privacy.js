@@ -11,8 +11,6 @@ import GridItem from '../src/components/Grid/GridItem'
 import GridContainer from '../src/components/Grid/GridContainer'
 import { loadContentWithLocale, loadContent } from '../src/helpers/loadContent'
 
-import html from "../content/dataPrivacy.html"
-
 export const getStaticProps = async ({ locale }) => {
   const loadContentWithLocaleSet = loadContentWithLocale(locale)
 

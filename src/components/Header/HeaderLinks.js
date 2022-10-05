@@ -26,13 +26,20 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
 
-        <ListItem className={classes.listItem}>
-            <Link href="/faq" passHref>
-                <Button href="/faq" color="transparent" className={classes.navLink}>
-                    <Icon className={classes.icons}>help</Icon> {props.faq}
-                </Button>
-            </Link>
-        </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link href="/#contact" passHref>
+          <Button href="/#contact" color="transparent" className={classes.navLink}>
+            <Icon className={classes.icons}>mail</Icon> {props.telegramTooltip}
+          </Button>
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link href="/faq" passHref>
+          <Button href="/faq" color="transparent" className={classes.navLink}>
+            <Icon className={classes.icons}>help</Icon> {props.faq}
+          </Button>
+        </Link>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <LocaleSwitcher />
       </ListItem>
