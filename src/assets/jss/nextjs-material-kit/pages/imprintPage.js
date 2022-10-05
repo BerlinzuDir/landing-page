@@ -11,7 +11,7 @@ const imprintPageStyle = {
     ...title,
     display: 'inline-block',
     position: 'relative',
-    marginTop: '30px',
+    marginTop: '0px',
     minHeight: '32px',
     color: '#3C4858',
     textDecoration: 'none'

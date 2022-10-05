@@ -10,7 +10,7 @@ const useStyles = makeStyles(styles)
 
 export default function Parallax(props) {
     let windowScrollTop
-    const [transform, setTransform] = React.useState('translate3d(0,84px,0)')
+    const [transform, setTransform] = React.useState('translate3d(0,50px,0)')
     React.useEffect(() => {
         if (window.innerWidth >= 768) {
             window.addEventListener('scroll', resetTransform)
@@ -22,7 +22,7 @@ export default function Parallax(props) {
         }
     })
     const resetTransform = () => {
-        var windowScrollTop = 84 + window.pageYOffset / 3
+        var windowScrollTop = 50 + window.pageYOffset / 10
         setTransform('translate3d(0,' + windowScrollTop + 'px,0)')
     }
     const {
