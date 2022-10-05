@@ -25,7 +25,7 @@ module.exports = withPlugins([[withImages]], {
           loader: "html-loader",
         },
       ],
-    });
+    })
 
     return config
   },
