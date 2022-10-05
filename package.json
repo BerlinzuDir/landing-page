@@ -23,6 +23,7 @@
     "classnames": "2.2.6",
     "fs": "^0.0.1-security",
     "glob": "^7.1.6",
+    "html-react-parser": "^3.0.4",
     "load-json-file": "^6.2.0",
     "moment": "2.25.3",
     "next": "^10.2.3",
