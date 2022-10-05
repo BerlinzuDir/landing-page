@@ -2,6 +2,7 @@ import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles'
 import parse from "html-react-parser";
+import html from "../content/dataPrivacy.html";
 
 import styles from 'src/assets/jss/nextjs-material-kit/pages/imprintPage'
 import HeaderLinks from '../src/components/Header/HeaderLinks'
