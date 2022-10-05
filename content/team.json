@@ -3,14 +3,14 @@
         "title": "Team",
         "people": [
             {
+                "image": "",
+                "title": "Minh Wiebicke",
+                "description": ""
+            },
+            {
                 "image": "/img/team/joachim.jpg",
                 "title": "Joachim Kohl",
                 "description": "Joachim ist Mitgründer von BerlinzuDir und leitet das Marketing. Zudem setzt er seine Expertise für strategische Fragen bei der generellen Geschäftsentwicklung ein. Er bringt über 15 Jahre Erfahrung im digitalen Marketing und Performance Marketing mit und hat bei namhaften Agenturen für dutzende große und kleinere Kunden gearbeitet. Zuletzt war Joachim Head of Strategy & Data bei der Medienagentur Vizeum."
-            },
-            {
-                "image": "/img/team/daria.jpg",
-                "title": "Daria Mühlenbein",
-                "description": "Daria ist bei BerlinzuDir für die Sozialen Medien zuständig und hilft überdies bei allerlei großen und kleinen Aufgaben im Marketing. Nebenbei absolviert sie einen Bachelor in Betriebswirtschaftslehre mit Vertiefung Marketing und Logistik und hat zudem praktische Erfahrung im Eventmanagement und im Gastro-Bereich gesammelt."
             },
             {
                 "image": "/img/team/jakob.jpg",
@@ -18,9 +18,9 @@
                 "description": "Jakob ist Mitgründer von BerlinzuDir und ist für IT- und Prozessentwicklung zuständig. Dabei hält er direkten Kontakt mit Läden, Kurier:innen und der IT und hat dabei immer ein Auge aufs große Ganze und eins auf die Details. Dabei bringt er seine Expertise in der Modellierung komplexer systeme aus einer Promotion in Theoretischer Physik, sowie Erfahrung als Full Stack web Entwickler und Data Engineer ein."
             },
             {
-                "image": "/img/team/polina.png",
-                "title": "Polina Aslamova",
-                "description": "Polina unterstützt bei BerlinzuDir das Marketing und wirkt zudem bei der generellen Geschäftsentwicklung mit. Nebenher absolviert sie einen Master in Master Innovation, Management, Unternehmertum und Nachhaltigkeit (IMES) an der TU Berlin. Zuvor hat sie mehrjährige praktische Erfahrung im Marketing gesammelt, insbesondere in den Bereichen Marktforschung, Online-Marketing und SEO."
+                "image": "",
+                "title": "Lilo Meier",
+                "description": ""
             },
             {
                 "image": "/img/team/kilian.jpg",
@@ -31,11 +31,6 @@
                 "image": "/img/team/felix.jpg",
                 "title": "Felix Weth",
                 "description": "Felix ist Mitgründer von BerlinzuDir und  kümmert sich um die Geschäftsführung, das Partnernetzwerk und den Aufbau der Genossenschaft. Darüber hinaus hilft er auch bei der Außenkommunikation. Früher hat Felix den genossenschaftlichen Online-Marktplatz Fairmondo gegründet. In den fünf Jahren als Vorstand hat er viel über den Online-Handel gelernt, und über die Herausforderung, eine wirklich faire, nachhaltige Plattform aufzubauen."
-            },
-            {
-                "image": "/img/team/ameen.jpeg",
-                "title": "Ameen Shandor",
-                "description": "Ameen unterstützt BerlinzuDir bei der Händlerakquise und wirkt zudem bei der Geschäftsentwicklung und bei der Administration mit. Er hat einen vielfältigen Hintergrund von Elektroingenieur bishin zum Filialleiter in einer größeren Firma im Jemen. Sein praktisches Wissen hat er mit einem Master in Technologie- und Innovationsmanagement ergänzt."
             }
         ]
     },
@@ -43,14 +38,14 @@
         "title": "Our Team",
         "people": [
             {
+                "image": "",
+                "title": "Minh Wiebicke",
+                "description": ""
+            },
+            {
                 "image": "/img/team/joachim.jpg",
                 "title": "Joachim Kohl",
                 "description": "Joachim is a co-founder of BerlinzuDir and heads the marketing department. He also applies his expertise to strategic issues in general business development. He brings over 15 years of experience in digital marketing and performance marketing and has worked at well-known agencies for dozens of large and small clients. Most recently, Joachim was Head of Strategy & Data at the media agency Vizeum."
-            },
-            {
-                "image": "/img/team/polina.png",
-                "title": "Polina Aslamova",
-                "description": "Polina supports marketing at BerlinzuDir and also contributes to the general business development. Alongside, she is completing a Master in Master Innovation, Management, Entrepreneurship and Sustainability (IMES) at the TU Berlin. Previously, she gained several years of practical experience in marketing, especially in the areas of market research, online marketing and SEO."
             },
             {
                 "image": "/img/team/jakob.jpg",
@@ -58,9 +53,9 @@
                 "description": "Jakob is co-founder of BerlinzuDir and is responsible for IT and process development. He keeps in direct contact with stores, couriers and IT and always has an eye on the big picture and one on the details. He brings his expertise in modeling complex systems from a PhD in Theoretical Physics, as well as experience as a full stack web developer and data engineer."
             },
             {
-                "image": "/img/team/daria.jpg",
-                "title": "Daria Mühlenbein",
-                "description": "Daria is responsible for social media at BerlinzuDir and also helps with all kinds of large and small marketing tasks. She is also completing a bachelors's degree in business administration with a focus on marketing and logistics and has also gained practical experience in event management and the hospitality industry."
+                "image": "",
+                "title": "Lilo Meier",
+                "description": ""
             },
             {
                 "image": "/img/team/kilian.jpg",
@@ -71,11 +66,6 @@
                 "image": "/img/team/felix.jpg",
                 "title": "Felix Weth",
                 "description": "Felix is co-founder of BerlinzuDir and takes care of the management, the partner network and the development of the cooperative. In addition, he also helps with external communication. Previously, Felix founded the cooperative online marketplace Fairmondo. In his five years as a board member, he has learned a lot about online commerce, and about the challenge of building a truly fair, sustainable platform."
-            },
-            {
-                "image": "/img/team/ameen.jpeg",
-                "title": "Ameen Shandor",
-                "description": "Ameen supports BerlinzuDir with dealer acquisition and also assists with business development and administration. He has a diverse background from electrical engineer to branch manager in a major company in Yemen. He has complemented his practical knowledge with a Master's degree in Technology and Innovation Management."
             }
         ]
     }

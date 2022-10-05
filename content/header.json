@@ -2,7 +2,7 @@
     "en": {
         "logo": "/img/logo/horizontal.png",
         "logoWhite": "/img/logo/horizontal_white.png",
-        "blog": "Marketplace",
+        "blog": "",
         "telegram": "",
         "telegramTooltip": "",
         "brand": "BerlinzuDir",
@@ -11,7 +11,7 @@
     "de": {
         "logo": "/img/logo/horizontal.png",
         "logoWhite": "/img/logo/horizontal_white.png",
-        "blog": "Marktplatz",
+        "blog": "",
         "telegram": "",
         "telegramTooltip": "",
         "brand": "BerlinzuDir",

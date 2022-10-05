@@ -25,13 +25,6 @@ export default function HeaderLinks(props) {
   const classes = useStyles()
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
-        <Link href="http://www.berlinzudir.de" passHref>
-          <Button href="http://www.berlinzudir.de" target="_blank" color="transparent" className={classes.navLink}>
-            <Icon className={classes.icons}>storefront</Icon> {props.blog}
-          </Button>
-        </Link>
-      </ListItem>
 
         <ListItem className={classes.listItem}>
             <Link href="/faq" passHref>
