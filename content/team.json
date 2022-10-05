@@ -3,7 +3,7 @@
         "title": "Team",
         "people": [
             {
-                "image": "",
+                "image": "/img/team/minh.jpg",
                 "title": "Minh Wiebicke",
                 "description": ""
             },
@@ -16,11 +16,6 @@
                 "image": "/img/team/jakob.jpg",
                 "title": "Jakob Kolb",
                 "description": "Jakob ist Mitgründer von BerlinzuDir und ist für IT- und Prozessentwicklung zuständig. Dabei hält er direkten Kontakt mit Läden, Kurier:innen und der IT und hat dabei immer ein Auge aufs große Ganze und eins auf die Details. Dabei bringt er seine Expertise in der Modellierung komplexer systeme aus einer Promotion in Theoretischer Physik, sowie Erfahrung als Full Stack web Entwickler und Data Engineer ein."
-            },
-            {
-                "image": "",
-                "title": "Lilo Meier",
-                "description": ""
             },
             {
                 "image": "/img/team/kilian.jpg",
@@ -38,7 +33,7 @@
         "title": "Our Team",
         "people": [
             {
-                "image": "",
+                "image": "/img/team/minh.jpg",
                 "title": "Minh Wiebicke",
                 "description": ""
             },
@@ -51,11 +46,6 @@
                 "image": "/img/team/jakob.jpg",
                 "title": "Jakob Kolb",
                 "description": "Jakob is co-founder of BerlinzuDir and is responsible for IT and process development. He keeps in direct contact with stores, couriers and IT and always has an eye on the big picture and one on the details. He brings his expertise in modeling complex systems from a PhD in Theoretical Physics, as well as experience as a full stack web developer and data engineer."
-            },
-            {
-                "image": "",
-                "title": "Lilo Meier",
-                "description": ""
             },
             {
                 "image": "/img/team/kilian.jpg",
