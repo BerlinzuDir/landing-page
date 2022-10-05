@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles'
-import ReactMarkdown from 'react-markdown'
+import parse from "html-react-parser";
 
 import styles from 'src/assets/jss/nextjs-material-kit/pages/imprintPage'
 import HeaderLinks from '../src/components/Header/HeaderLinks'
@@ -56,7 +56,14 @@ const Imprint = ({
             <h1 className={classes.subtitle}>{title}</h1>
             <br />
             <br />
-            <ReactMarkdown className={classes.content}>{content}</ReactMarkdown>
+            <div className="container-fluid pt-5">
+              <div className="row">
+                <div className="col-lg-1"></div>
+                <div className="col-sm align-self-center">
+                  <div className="text-dark"> {parse(html)} </div>
+                </div>
+              </div>
+            </div>
           </GridItem>
         </GridContainer>
       </div>
