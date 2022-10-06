@@ -3,6 +3,8 @@ import { container, title } from 'src/assets/jss/nextjs-material-kit.js'
 const imprintPageStyle = {
   container: {
     paddingTop: '100px',
+    paddingBottom: '50px',
+    minHeight: '92vh',
     zIndex: '12',
     color: '#3C4858',
     ...container
@@ -21,7 +23,7 @@ const imprintPageStyle = {
     maxWidth: '500px'
   },
   main: {
-    background: '#3C4858',
+    background: '#FFFFFF',
     position: 'relative',
     zIndex: '3'
   },
@@ -40,6 +42,10 @@ const imprintPageStyle = {
   },
   email: {
     color: '#3C4858'
+  },
+  mainRaised: {
+    boxShadow:
+      '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)'
   }
 }
 
