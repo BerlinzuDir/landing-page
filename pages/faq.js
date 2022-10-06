@@ -44,9 +44,6 @@ export default function LandingPage(props) {
                     <div id="about" className={classes.section}>
                         <FAQSection {...props.faqData} />
                     </div>
-                    <div id="contact">
-                        <ContactSection {...props.contactData} />
-                    </div>
                 </div>
             </div>
             <Footer {...props.footerData} />
