@@ -57,7 +57,7 @@ const Imprint = ({
       <div className={classes.container}>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
-            <h1 className={classes.title}>{title}</h1>
+            <h2 className={classes.title}>{title}</h2>
             <br />
             <br />
             <h2 className={classes.subtitle}>{organizationName}</h2>

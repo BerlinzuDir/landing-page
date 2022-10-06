@@ -53,7 +53,7 @@ const Imprint = ({
           <div className={'height: 100px'} />
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.subtitle}>{title}</h1>
+              <h2 className={classes.title}>{title}</h2>
               <br />
               <br />
               <div className="container-fluid">
