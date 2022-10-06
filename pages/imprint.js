@@ -1,10 +1,10 @@
 import React from 'react'
 
+import classNames from 'classnames'
 import { makeStyles } from '@material-ui/core/styles'
 import ReactMarkdown from 'react-markdown'
 
 import styles from 'src/assets/jss/nextjs-material-kit/pages/imprintPage'
-import * as loadJsonFile from 'load-json-file'
 
 import Footer from '../src/components/Footer/Footer'
 import HeaderLinks from '../src/components/Header/HeaderLinks'
@@ -42,14 +42,6 @@ const Imprint = ({
   const classes = useStyles()
   return (
     <div>
-    <div
-      className={classes.pageHeader}
-      style={{
-        backgroundImage: 'url(' + backgroundImage + ')',
-        backgroundSize: 'cover',
-        backgroundPosition: 'top center'
-      }}
-    >
       <Header
         color="white"
         routes={dashboardRoutes}
@@ -61,8 +53,8 @@ const Imprint = ({
           color: 'white'
         }}
       />
+      <div className={classNames(classes.main, classes.mainRaised)}>
       <div className={classes.container}>
-        <div className={'height: 100px'} />
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <h1 className={classes.title}>{title}</h1>
@@ -80,7 +72,7 @@ const Imprint = ({
           </GridItem>
         </GridContainer>
       </div>
-    </div>
+      </div>
     <Footer {...footerData} />
     </div>
   )

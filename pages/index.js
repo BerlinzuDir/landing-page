@@ -39,6 +39,7 @@ export default function LandingPage(props) {
     const { ...rest } = props
     return (
         <div>
+        <div>
             <Header
                 color="white"
                 routes={dashboardRoutes}
@@ -67,15 +68,10 @@ export default function LandingPage(props) {
                     </div>
                 </div>
             </div>
-            <Footer {...props.footerData} />
 
-            <style global jsx>
-                {`
-                    html {
-                        scroll-behavior: smooth;
-                    }
-                `}
-            </style>
+        </div>
+        <Footer {...props.footerData} />
+
         </div>
     )
 }
